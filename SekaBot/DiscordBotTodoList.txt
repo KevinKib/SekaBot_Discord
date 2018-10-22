@@ -1,0 +1,46 @@
+﻿DISCORD BOT TODOLIST
+====================
+
+X Gérer la sauvegarde des nouvelles commandes dans un fichier
+
+~ Gérer les permissions (!command seulement ex�cutable par les utilisateurs avec r�le admin)
+~ Créer la commande !role
+    . Gérer l'ajout de nouveaux utilisateurs
+
+- Créer la commande !lottery :
+  + fonction gamble
+  + fonction leaderboards/rank
+- Créer la commande !intervals (pour programmer un message toutes les intervalles de temps)
+
+- Créer la commande !dailymusic
+
+- Gerer automatiquement les arguments
+
+- Intégrer une BDD au lieu de sérialiser ?
+
+
+
+
+    /* OLD METHODS
+
+    -- UGLY METHOD
+    this.title = _title;
+    this.message = _msg;
+    this.description = "";
+
+    -- JAVA METHOD
+    var title;
+    var message;
+    this.getTitle = function() {return title;}
+    this.setTitle = function(_title) {title = _title;}
+    this.getMessage = function() {return message;}
+    this.setMessage = function(_message) {message = _message;}
+
+    -- JAVASCRIPT LINKS
+    // https://www.hongkiat.com/blog/getters-setters-javascript/
+    // https://javascriptplayground.com/es5-getters-setters/
+    // https://crockford.com/javascript/private.html
+    // https://stackoverflow.com/questions/6799103/how-to-set-javascript-private-variables-in-constructor
+    // https://developer.mozilla.org/fr/docs/Web/JavaScript/H%C3%A9ritage_et_cha%C3%AEne_de_prototypes
+    */
+
